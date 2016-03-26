@@ -3,17 +3,10 @@ $(document).ready(function() {
     console.log("document ready");
     var offset = 0;
     plot();
-    plot2();
 
     function plot() {
-        var sin = [],
-            cos = [];
-        for (var i = 0; i < 12; i += 0.2) {
-            sin.push([i, Math.sin(i + offset)]);
-            cos.push([i, Math.cos(i + offset)]);
-        }
 
-        var options = {
+       var options = {
             series: {
                 lines: {
                     show: true
@@ -22,79 +15,80 @@ $(document).ready(function() {
                     show: true
                 }
             },
-            grid: {
-                hoverable: true //IMPORTANT! this is needed for tooltip to work
-            },
-            yaxis: {
-                min: -1.2,
-                max: 1.2
-            },
-            tooltip: true,
-            tooltipOpts: {
-                content: "'%s' of %x.1 is %y.4",
-                shifts: {
-                    x: -60,
-                    y: 25
-                }
-            }
-        };
-
-        var plotObj = $.plot($("#flot-line-chart"), [{
-                data: sin,
-                label: "sin(x)"
-            }, {
-                data: cos,
-                label: "cos(x)"
+            xaxes: [{
+                mode: 'time'
             }],
-            options);
-    }
-
-
-
-    function plot2() {
-        var sin = [],
-            cos = [];
-        for (var i = 0; i < 12; i += 0.2) {
-            sin.push([i, Math.sin(i + offset)]);
-            cos.push([i, Math.cos(i + offset)]);
-        }
-
-        var options = {
-            series: {
-                lines: {
-                    show: true
-                },
-                points: {
-                    show: true
-                }
+            yaxes: [{
+                min: 0.0
+            }],
+            legend: {
+                position: 'sw'
             },
             grid: {
                 hoverable: true //IMPORTANT! this is needed for tooltip to work
             },
-            yaxis: {
-                min: -1.2,
-                max: 1.2
-            },
             tooltip: true,
             tooltipOpts: {
-                content: "'%s' of %x.1 is %y.4",
-                shifts: {
-                    x: -60,
-                    y: 25
+                content: "%s was %y",
+                xDateFormat: "%y-%0m-%0d",
+                onHover: function(flotItem, $tooltipEl) {
+                    // console.log(flotItem, $tooltipEl);
                 }
             }
+
+
         };
 
-        var plotObj = $.plot($("#flot-line-chart2"), [{
-                data: sin,
-                label: "sin(x)"
-            }, {
-                data: cos,
-                label: "cos(x)"
-            }],
-            options);
-    }
 
+      
+        $.getJSON("http://192.168.1.38/index.php/main/getSensorData/temp_sensor", function (data) {
+            sensor_data = []
+            for ( var i =0 ; i < data.data.length; i++ ) {
+                sensor_data.push([data.data[i][0], parseFloat(data.data[i][1])]);
+            }
+
+            var plotObj = $.plot($("#flot-line-chart-temperature"), [{
+                    data: sensor_data,
+                    label: data.label 
+                }
+                ],
+                options);
+         });
+       
+        $.getJSON("http://192.168.1.38/index.php/main/getSensorData/ph_sensor", function (data) {
+            sensor_data = []
+            for ( var i =0 ; i < data.data.length; i++ ) {
+                sensor_data.push([data.data[i][0], parseFloat(data.data[i][1])]);
+            }
+
+            var plotObj = $.plot($("#flot-line-chart-ph"), [{
+                    data: sensor_data,
+                    label: data.label 
+                }
+                ],
+                options);
+         });
+ 
+ 
+        $.getJSON("http://192.168.1.38/index.php/main/getSensorData/uv_sensor", function (data) {
+            sensor_data = []
+            for ( var i =0 ; i < data.data.length; i++ ) {
+                sensor_data.push([data.data[i][0], parseFloat(data.data[i][1])]);
+            }
+
+            var plotObj = $.plot($("#flot-line-chart-uv"), [{
+                    data: sensor_data,
+                    label: data.label 
+                }
+                ],
+                options);
+         });
+ 
+
+
+
+
+    }
 
 
 

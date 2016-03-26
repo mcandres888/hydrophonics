@@ -1,0 +1,648 @@
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [26/Mar/2016 15:36:13] "GET /restart HTTP/1.1" 200 13
+. 
+daemon process stopped
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "app.py", line 15, in <module>
+    run(host='0.0.0.0', port=8888, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3117, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 144, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [26/Mar/2016 15:41:14] "GET /restart HTTP/1.1" 200 13
+daemon manager not running
+. . 
+daemon process started, pid=2908
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8888/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [26/Mar/2016 15:44:30] "GET /restart HTTP/1.1" 200 13
+. 
+daemon process stopped
+. . 
+daemon process started, pid=2905

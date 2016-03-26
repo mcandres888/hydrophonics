@@ -19,7 +19,7 @@
                                     <i class="fa fa-fire fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">26.8 C</div>
+                                    <div class="huge"><?=$temp_sensor?> C</div>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                     <i class="fa fa-tint fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">5.3 Ph</div>
+                                    <div class="huge"><?=$ph_sensor?> Ph</div>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                                     <i class="fa fa-sun-o fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">12.4 UV</div>
+                                    <div class="huge"><?=$uv_sensor?> UV</div>
                                 </div>
                             </div>
                         </div>
@@ -78,12 +78,12 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Line Chart Example
+                            Temperature
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="flot-chart">
-                                <div class="flot-chart-content" id="flot-line-chart"></div>
+                                <div class="flot-chart-content" id="flot-line-chart-temperature"></div>
                             </div>
                         </div>
                         <!-- /.panel-body -->
@@ -93,16 +93,15 @@
                 <!-- /.col-lg-12 -->
 
 
-           <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Line Chart Example
+                            PH Level
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="flot-chart">
-                                <div class="flot-chart-content" id="flot-line-chart2"></div>
+                                <div class="flot-chart-content" id="flot-line-chart-ph"></div>
                             </div>
                         </div>
                         <!-- /.panel-body -->
@@ -113,16 +112,15 @@
 
 
 
-           <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Line Chart Example
+                            UV Light
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="flot-chart">
-                                <div class="flot-chart-content" id="flot-line-chart3"></div>
+                                <div class="flot-chart-content" id="flot-line-chart-uv"></div>
                             </div>
                         </div>
                         <!-- /.panel-body -->

@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Hydrophonics Admin v1.0</a>
+                <a class="navbar-brand" href="<?=site_url()?>/main">Hydrophonics Admin v1.0</a>
             </div>
             <!-- /.navbar-header -->
             <!-- /.navbar-top-links -->
